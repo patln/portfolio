@@ -27,7 +27,7 @@ html{
     background-color: rgb(238, 238, 238);
     transform: translate(0);
     -webkit-transform: translate(0);
-    transition: all .5s ease-in;
+    transition: all .7s ease-in;
   }
 
   .load-2 {
@@ -36,15 +36,17 @@ html{
     background-color: rgb(238, 238, 238);
     transform: translate(0);
     -webkit-transform: translate(0);
-    transition: all .5s ease-in;
+    transition: all .7s ease-in;
   }
 
   .animate-r{
+    opacity: .5;
     transform: translate(100vw);
     -webkit-transform: translate(100vw);
   }
   
   .animate-l{
+    opacity: .5;
     transform: translate(-100vw);
     -webkit-transform: translate(-100vw);
   }
@@ -117,9 +119,11 @@ html{
   
   .button-burger {
     background-color: transparent;
+    border-color: #000;
     border-radius: 0px;
     width: 32px;
     height: 32px;
+    padding-right: 24px;
   }
 
   .button-burger .icon {

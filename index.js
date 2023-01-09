@@ -68,13 +68,19 @@ let columns = 3;
 
 // Preloader to do css animations with a delay before display none
 $(window).on("load", function() {
+
+  setTimeout(animateLoader, 1000);
+
+  setTimeout(hideLoader, 3000);
+});
+
+function animateLoader() {
   let loader1 = $(".load-1");
   let loader2 = $(".load-2");
 
   loader1.addClass("animate-l");
   loader2.addClass("animate-r");
-  setTimeout(hideLoader, 1000);
-});
+}
 
 function hideLoader() {
   $("#loading-screen").css("display", "none");
