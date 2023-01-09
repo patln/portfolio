@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Patrick Lin</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+
+<div class="loading-screen" id="loading-screen">
+  <div class="load-1"></div>
+  <div class="load-2"></div>
+</div>
+
+<div class="wrapper">
+  <!-- Navigation -->
+  <div class="nav-wrapper">
+
+    <div class="nav">
+
+      <div class="nav-left">
+        <div class="logo-wrapper">
+          <a href="#top" class="logo-link"><img src="./images/patln_logo_med.png" alt="Patrick's logo x with circumflex" class="logo-img"></a>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <div class="nav-list">
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#" class="nav-link">About</a>
+          <a href="#footer" class="nav-link">Contact</a>
+
+        </div>
+        <div class="mobile-nav">
+          <div class="button-wrapper">
+            <button class="button-burger" clicked="0">
+              <i class="icon fa-solid fa-bars"></i>
+            </button>
+          </div>
+          <div class="mobile-list">
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#" class="mobile-link">About</a>
+            <a href="#footer" class="mobile-link">Contact</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero-wrapper">
+
+    <div class="hero-img-wrap">
+    </div>
+    <div class="hero" id="top">
+      
+      <div class="hero-text">
+        Hello! I'm Patrick.
+        <br>Making things is my passion.
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 2 -->
+  <div class="section-wrapper" id="section-2">
+    <div class="section">
+
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="wrapper">
+    <div class="projects" id="projects">
+      <div class="projects-head">
+        <div class="projects-title">Selected work</div>
+        <div class="label-text">Include select types:</div>
+        <div class="projects-type" id="type-buttons">
+          <button class="filter pressed" filter="all" clicked="1">All Projects</button>
+          <button class="filter" filter="dev" clicked="0">Web Development</button>
+          <button class="filter" filter="design" clicked="0">UX / UI Design</button>
+          <button class="filter" filter="other" clicked="0">Other</button>
+        </div>
+        
+        <div class="label-text">Filter by devices:</div>
+        <div class="projects-type" id="device-buttons">
+          <button class="device pressed" platform="all" clicked ="1">All Devices</button>
+          <button class="device" platform="desktop" clicked="0">Desktop</button>
+          <button class="device" platform="mobile" clicked="0">Mobile</button>
+        </div>
+      </div>
+
+      <!-- Projects List -->
+      <div class="projects-body">
+
+        <div class="projects-card">
+          <div class="projects-card-body">
+            <img src="https://via.placeholder.com/200" class="projects-card-img">
+          </div>
+          <div class="projects-card-footer">
+            <a href="#" class="card-link">View this project <span class="arrow"> -> </span> </a>
+            <div class="projects-card-tagline">Cool projects about</div>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <div class="projects-card-body">
+            <a href="#" class="img-link"><img src="https://via.placeholder.com/300x180" class="projects-card-img"></a>
+          </div>
+          <div class="projects-card-footer">
+            <a href="#" class="card-link">View this project <span class="arrow"> -> </span> </a>
+            <div class="projects-card-tagline">Cool projects about</div>
+          </div>
+        </div>
+
+        <div class="projects-card">
+          <div class="projects-card-body">
+            <img src="https://via.placeholder.com/120x400" class="projects-card-img">
+          </div>
+          <div class="projects-card-footer">
+            <div class="projects-card-footer-l">
+              <a href="#" class="card-link">View this project <span class="arrow"> -> </span> </a>
+              <div class="projects-card-tagline">Cool projects about</div>
+            </div>
+            <div class="projects-card-footer-r">
+              <div class="projects-card-footer-filters">
+                <div class="card-footer-tag">Design</div>
+                <div class="card-footer-tag">Dev</div>
+              </div>
+              <div class="projects-card-footer-devices">
+                <div class="card-footer-device">Mobile</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Footer Section -->
+  <div class="footer" id="footer">
+    <div class="footer-body">
+
+
+      <div class="footer-l">
+        <div class="footer-label">Sitemap</div>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#" class="footer-link">About</a>
+        <a href="#footer" class="footer-link">Contact</a>
+      </div>
+
+      <div class="footer-c">
+        <div class="contact-header">Say "hello!"</div>
+        <div class="contact-text">patricklin86@gmail.com</div>
+        <div class="footer-mark">
+          © Patrick Lin 2023. All Rights Reserved.
+        </div>
+
+      </div>
+
+      <div class="footer-r">
+        <div class="media-list">
+          <a href="https://www.linkedin.com/in/patln/" class="media-link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/patln" class="media-link" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <div class="top-page">
+          <a href="#top" class="top-page-link"><i class="fa-solid fa-arrow-up"></i></a>
+          <div class="micro-copy">To Top</div>
+        </div>
+      </div>
+        
+
+      
+    </div>
+  </div>
+
+
+
+  <!-- End of Body -->
+</div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+<!-- Jquery --> 
+<script src="https://code.jquery.com/jquery-3.6.3.slim.min.js" integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>    
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/6347b71ed6.js" crossorigin="anonymous"></script>
+
+<script src="./index.js"></script>
+</body>
+</html>
