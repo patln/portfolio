@@ -264,6 +264,7 @@ html{
     border-bottom: solid 2px transparent;
     padding: 0 12px;
     margin-right: 12px;
+    margin-bottom: 16px;
     font-weight: 600;
     font-size: 1.2rem;
     opacity: 0.6;
@@ -572,6 +573,18 @@ html{
   }
   
   /* Responsiveness */
+  @media all and (max-width: 800px){
+    .hero-img-wrap {
+      height: 70vh;
+    }
+
+    .hero-text {
+      font-size: 3rem;
+      margin-top: 120px;
+      color: black;
+    }
+  }
+
   @media all and (max-width: 600px) {
     .footer-l {
       display: none;
