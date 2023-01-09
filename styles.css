@@ -241,7 +241,7 @@ html{
 
   /* Project Buttons */
   #projects .label-text{
-    margin-bottom: 12px;
+    margin-top: 18px;
     font-size: .8rem;
   }
 
@@ -255,7 +255,7 @@ html{
     font-size: 1.2rem;
     padding: 4px 12px;
     margin-right: 6px;
-    margin-bottom: 16px;
+    margin-top: 12px;
     background-color: transparent;
     border: solid 2px black;
     -webkit-transition: all .2s ease-in-out;
@@ -264,14 +264,20 @@ html{
     cursor: pointer;
   }
 
+  .filter:hover {
+    opacity: 1;
+    background-color:#ddd;
+  }
+
   .device {
     color: #000;
     background-color: transparent;
     border: none;
     border-bottom: solid 2px transparent;
     padding: 0 12px;
+    padding-bottom: 2px;
     margin-right: 12px;
-    margin-bottom: 16px;
+    margin-top: 12px;
     font-weight: 600;
     font-size: 1.2rem;
     opacity: 0.6;
