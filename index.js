@@ -273,6 +273,27 @@ function renderCols(template, node){
   renderCards();
 }
 
+//Listener on the projects-board to disable link behavior on cards that currently do not have a working link
+$(".projects-body").on("click", ".img-link", function(event) {
+  let clicked = $(this);
+  console.log((clicked.attr("href") === "#"));
+
+  if (clicked.attr("href") === "#") {
+    event.preventDefault();
+    clicked.css("cursor", "default");
+  }
+})
+
+$(".projects-body").on("click", ".card-link", function(event) {
+  let clicked = $(this);
+  console.log((clicked.attr("href") === "#"));
+
+  if (clicked.attr("href") === "#") {
+    event.preventDefault();
+    clicked.css("cursor", "default");
+  }
+})
+
 //function renders the cards into the cols
 function renderCards() {
     while (cardIndex < renderArray.length) {
@@ -283,7 +304,7 @@ function renderCards() {
             if (cardIndex === renderArray.length){
                 break;
             }
-
+            
             $(`.projects-column-${col}`).append(`
                 <div class="projects-card">
                   <div class="projects-card-body">
