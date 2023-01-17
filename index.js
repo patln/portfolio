@@ -7,7 +7,6 @@ url:"https://patln.github.io/relax-reminder/",
 filters:["dev"], 
 devices:["desktop", "mobile"]}, 
 
-
 {name: "w/Food.", 
 tagline: "Food is our language", 
 img:"./images/with_food_1.jpg", 
@@ -69,10 +68,8 @@ let filtersArray = projectsArray.slice(0);
 let renderArray = filtersArray.slice(0);
 let activeFilters = [];
 
-
 let cardIndex = 0;
 let columns = 3;
-
 
 // Preloader to do css animations with a delay before display none
 $(window).on("load", function() {
