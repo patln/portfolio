@@ -331,11 +331,11 @@ html{
 
   /* Card Stuff */
   .spacer {
-    min-width: 24px;
+    min-width: 36px;
   }
   
   .projects-card {
-    margin: 12px 12px 24px;
+    margin: 12px 12px 42px;
     width: 100%;
     display: flex;
     flex-direction: column;
