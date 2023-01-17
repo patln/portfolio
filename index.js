@@ -1,5 +1,13 @@
 const projectsArray = 
 [
+{name: "Relax", 
+tagline: "Self care is important", 
+img:"./images/relax_01.jpg", 
+url:"https://patln.github.io/relax-reminder/", 
+filters:["dev"], 
+devices:["desktop", "mobile"]}, 
+
+
 {name: "w/Food.", 
 tagline: "Food is our language", 
 img:"./images/with_food_1.jpg", 
@@ -21,19 +29,19 @@ url:"#",
 filters:["design"], 
 devices:["mobile"]}, 
 
-{name: "Raise A Suillen", 
-tagline: "Event coverage", 
-img:"./images/raise_01.JPG", 
-url:"#", 
-filters:["other"], 
-devices:[]},
-
 {name: "Reading to Kids", 
 tagline: "Cool story", 
 img:"./images/r2k_beauty1.jpg", 
 url:"#", 
 filters:["design"], 
 devices:["mobile"]}, 
+
+{name: "Raise A Suillen", 
+tagline: "Event coverage", 
+img:"./images/raise_01.JPG", 
+url:"#", 
+filters:["other"], 
+devices:[]},
 
 {name: "IBP Masters", 
 tagline: "You had to be there!", 
